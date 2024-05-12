@@ -1069,7 +1069,7 @@ ol {
 .footer-section .copyright {
   position: absolute;
   top: 50%;
-  margin-top: -12px;
+  margin-top: -70px;
   left: 60px;
   color: #737373;
 }
@@ -1103,6 +1103,7 @@ ol {
 
 .footer-item ul li a:hover {
   background: $primary-color;
+  color: white;
 }
 
 /*----------------------------------------*/
@@ -1229,6 +1230,15 @@ ol {
   box-shadow: 0px 0px 0px rgba(114, 114, 114, 0.21);
 }
 
+.team-member {
+  &:hover {
+    .member-info h2,
+    .member-info p {
+      color: #fff;
+    }
+  }
+}
+
 .promo-section {
   padding-top: 90px;
   padding-bottom: 150px;
@@ -1333,6 +1343,21 @@ ol {
 .solid-service-box p {
   font-size: 14px;
   margin-bottom: 20px;
+}
+
+.solid-service-box {
+  &:hover {
+    h2,
+    h3,
+    p,
+    a {
+      color: white !important;
+    }
+    .readmore {
+      border: #fff solid !important;
+      padding: 10px 20px !important;
+    }
+  }
 }
 
 .solid-service-box .readmore {
