@@ -15,7 +15,6 @@ export default function Home() {
           content="At Yeokom Engineering Ltd, we aim to always design A sustainable drainage system for your project‘s drainage scheme."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* <!-- Header section start -->    */}
       <Navbar />
