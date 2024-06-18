@@ -21,10 +21,10 @@ const Navbar: FC<Props> = ({ customHeaderWrapperClass }) => {
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="about">About us</Link>
+            <Link href="/#about">About us</Link>
           </li>
           <li>
-            <Link href="services">Services</Link>
+            <Link href="/#services">Services</Link>
           </li>
           <li>
             <Link href="contact">Contact</Link>

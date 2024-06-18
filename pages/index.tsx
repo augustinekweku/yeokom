@@ -3,7 +3,6 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
 import Head from "next/head";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -73,7 +72,7 @@ export default function Home() {
       {/* <!-- Hero section end --> */}
 
       {/* <!-- Intro section start --> */}
-      <section className="intro-section pt100 pb50">
+      <section className="intro-section pt100 pb50" id="about">
         <div className="container">
           <div className="row">
             <div className="col-lg-7 intro-text mb-5 mb-lg-0">
@@ -102,7 +101,7 @@ export default function Home() {
       {/* <!-- Intro section end --> */}
 
       {/* <!-- Service section start --> */}
-      <section className="service-section spad">
+      <section className="service-section spad" id="services">
         <div className="container">
           <div className="section-title">
             <h2>Services</h2>
@@ -199,7 +198,7 @@ export default function Home() {
       {/* <!-- Service section end --> */}
 
       {/* <!-- CTA section start --> */}
-      <section className="cta-section pt100 pb50">
+      <section className="cta-section pt100 pb50 ">
         <div className="cta-image-box"></div>
         <div className="container">
           <div className="row">
@@ -235,7 +234,7 @@ export default function Home() {
       {/* <!-- CTA section end --> */}
 
       {/* <!-- Milestones section Start --> */}
-      <section className="milestones-section spad">
+      <section className="milestones-section spad d-none">
         <div className="container">
           <div className="row">
             <div className="col-lg-3 col-md-6">
@@ -281,7 +280,7 @@ export default function Home() {
       {/* <!-- Milestones section end --> */}
 
       {/* <!-- Projects section start --> */}
-      <div className="projects-section pb50">
+      <div className="projects-section pb50 pt-5" id="projects">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-3">
@@ -296,7 +295,7 @@ export default function Home() {
       {/* <!-- Projects section end --> */}
 
       {/* <!-- Clients section start --> */}
-      <div className="client-section spad">
+      <div className="client-section spad d-none">
         <div className="container">
           <div id="client-carousel" className="client-slider">
             <div className="single-brand">
