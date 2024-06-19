@@ -29,17 +29,14 @@ const Projects = () => {
         <div className="col-12 col-lg-4">
           <div className="" onClick={() => openImageViewer(0)}>
             <img src="/img/projects/Broad Hinton Swindon.png" alt="" />
-            <div className="">
-              <p className="caption">Broad Hinton Swindon</p>
-            </div>
 
-            <p className="c">Broad Hinton Swindon</p>
+            <p className="font-weight-bold">Broad Hinton Swindon</p>
           </div>
         </div>
         <div className="col-12 col-lg-4" onClick={() => openImageViewer(1)}>
           <img src="/img/projects/Haydon Wick Swindon.png" alt="" />
           <div className="">
-            <p className="caption">Haydon Wick Swindon</p>
+            <p className="font-weight-bold">Haydon Wick Swindon</p>
           </div>
         </div>
       </div>
