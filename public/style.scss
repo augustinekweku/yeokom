@@ -2010,11 +2010,11 @@ ol {
     height: 10px;
   }
   .hero-section {
-    height: auto;
+    height: 400px;
   }
   .hero-slider .hero-slide-item {
     padding: 150px 0;
-    height: auto;
+    height: 400px;
   }
   .slide-content h2 {
     font-size: 60px;
@@ -2257,12 +2257,17 @@ ol {
 /*------------------ TYPEWRITER EFFECT----------------------*/
 
 .typewriter h1 {
+  font-size: 28px;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: 0.15em solid orange; /* The typwriter cursor */
+  // border-right: 0.15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: 0.15em; /* Adjust as needed */
   animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
 }
 
 /* The typing effect */

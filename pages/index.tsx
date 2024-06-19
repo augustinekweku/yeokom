@@ -58,7 +58,10 @@ export default function Home() {
             <div className="hero-slide-item "></div>
           </div>
           <div className="hero-bg-text typewriter">
-            <h1 className="text-white mb-0">Yeokom Engineering Ltd</h1>
+            <h1 className="text-white mb-0">
+              Welcome to <br />
+              Yeokom Engineering Ltd
+            </h1>
           </div>
         </div>
         <div className="slide-num-holder" id="snh-1"></div>
