@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
         <div className="d-flex justify-content-center align-items-center gap-3 flex-column flex-lg-row">
           <div className="d-flex align-items-center">
-            <Link className="footer-link" href="/#about">
+            <Link className="footer-link" href="/about">
               About Us
             </Link>
             <Link className="footer-link" href="/#services">

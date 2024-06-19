@@ -1160,7 +1160,7 @@ ol {
   height: calc(100% + 120px);
   left: 0;
   top: -60px;
-  background-image: url("/img/cta-img.jpg");
+  background-image: url("/img/landing-page-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -2265,7 +2265,6 @@ ol {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: 0.15em; /* Adjust as needed */
-  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 
   @media screen and (max-width: 768px) {
     font-size: 16px;
@@ -2278,7 +2277,6 @@ ol {
   // border-right: 0.15em solid orange; /* The typwriter cursor */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: 0.15em; /* Adjust as needed */
-  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 
   @media screen and (max-width: 768px) {
     font-size: 13px;
@@ -2307,3 +2305,8 @@ ol {
 }
 
 /*------------------ END TYPEWRITER EFFECT----------------------*/
+
+.about-icon {
+  font-size: 50px;
+  color: $primary-color;
+}
