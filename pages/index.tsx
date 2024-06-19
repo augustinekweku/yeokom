@@ -44,17 +44,21 @@ export default function Home() {
           </div>
         </div>
         {/* <!-- hero slider area --> */}
-        <div
-          className="hero-slider "
-          style={{
-            background: "url(img/landing-page-1.jpg)",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-          }}
-        >
-          <div className="hero-slide-item ">
-            <div className="slide-inner"></div>
+        <div className="hero-slider-wrapper position-relative">
+          <div
+            className="hero-slider "
+            style={{
+              background: "url(img/landing-page-1.jpg)",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              filter: "blur(3px)",
+            }}
+          >
+            <div className="hero-slide-item "></div>
+          </div>
+          <div className="hero-bg-text typewriter">
+            <h1 className="text-white mb-0">Yeokom Engineering Ltd</h1>
           </div>
         </div>
         <div className="slide-num-holder" id="snh-1"></div>
