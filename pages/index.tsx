@@ -48,7 +48,7 @@ export default function Home() {
           <div
             className="hero-slider "
             style={{
-              background: "url(img/landing-page-1.jpg)",
+              background: "url(img/landing-page-1.JPG)",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -244,7 +244,7 @@ export default function Home() {
       {/* <!-- Milestones section end --> */}
 
       {/* <!-- Projects section start --> */}
-      <div className="projects-section pb50 pt-5 d-none" id="projects">
+      <div className="projects-section pb50 pt-5" id="projects">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-3">
