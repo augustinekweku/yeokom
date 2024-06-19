@@ -48,7 +48,7 @@ export default function Home() {
           <div
             className="hero-slider "
             style={{
-              background: "url(img/landing-page-1.jpg)",
+              background: "url(/img/landing-page-1.jpg)",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",

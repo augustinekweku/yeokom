@@ -24,13 +24,7 @@ $(window).on('load', function() {
 		$('.nav-menu').slideToggle(400);
 		event.preventDefault();
 	});
-	/*------------------
-		Background set
-	--------------------*/
-	$('.set-bg').each(function() {
-		var bg = $(this).data('setbg');
-		$(this).css('background-image', 'url(' + bg + ')');
-	});
+
 
 })(jQuery);
 
