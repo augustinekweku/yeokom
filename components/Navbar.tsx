@@ -45,7 +45,7 @@ const Navbar: FC<Props> = ({ customHeaderWrapperClass }) => {
       <div className="nav-switch">
         <i className="fa fa-bars"></i>
       </div>
-      <div className="phone-number">+675 334 567 223</div>
+      <div className="phone-number">+44 179 337 4929</div>
       <nav className="nav-menu">
         <ul>
           {NAV_LINKS.map((link) => (

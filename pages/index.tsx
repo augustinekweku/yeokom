@@ -48,20 +48,30 @@ export default function Home() {
           <div
             className="hero-slider "
             style={{
-              background: "url(img/landing-page-1.JPG)",
+              background: "url(img/hero.jpg)",
               backgroundSize: "cover",
-              backgroundPosition: "center",
+              backgroundPosition: "top",
               backgroundRepeat: "no-repeat",
-              filter: "blur(2px)",
             }}
           >
             <div className="hero-slide-item "></div>
           </div>
-          <div className="hero-bg-text typewriter">
+          <div className="hero-bg-text typewriter ">
             <h1 className="text-white mb-0">
-              Welcome to <br />
-              Yeokom Engineering Ltd
+              Need Help with your Planning Application?
             </h1>
+            <p className="text-white">
+              Detailed Foul and Water Drainage System
+            </p>
+
+            <a
+              onClick={() => {
+                location.href = "/contact";
+              }}
+              className="site-btn sb-light mt-3"
+            >
+              Contact Us
+            </a>
           </div>
         </div>
         <div className="slide-num-holder" id="snh-1"></div>
@@ -136,6 +146,9 @@ export default function Home() {
                     <li>Foul And Surface Water Drainage Strategies</li>
                     <li>⁠Flood Risk Assessments</li>
                     <li>Foul Drainage Assessments (FDA1)</li>
+                    <li>SAB Applications</li>
+                    <li>Hydraulic Calculations</li>
+                    <li>Soakaway Calculations</li>
                   </ul>
                 </div>
               </div>
@@ -147,11 +160,7 @@ export default function Home() {
                     <img src="img/icon/dark/3.png" alt="" />
                   </div>
                 </div>
-                <h3>SAB Applications</h3>
-                <ul>
-                  <li>Hydraulic Calculations</li>
-                  <li>Soakaway Calculations</li>
-                </ul>
+                <h3>Topographical Survey</h3>
               </div>
             </div>
           </div>

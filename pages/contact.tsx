@@ -32,8 +32,7 @@ const Contact = () => {
           </div>
           <div className="row">
             <div className="col-lg-3 contact-info mb-5 mb-lg-0">
-              <p>Address: 22 Elgin Dr, Swindon SN2 8DN, UK</p>
-              <p>Phone: +675 334 567 223</p>
+              <p>Phone: +44 179 337 4929</p>
               <p>Email: info@yeokom.co.uk</p>
               <div className="cf-social d-none">
                 <a href="#">
