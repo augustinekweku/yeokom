@@ -8,7 +8,7 @@ const Contact = () => {
       <Navbar customHeaderWrapperClass="bg-white" />
       {/* <!-- Page header section start --> */}
       <section
-        className="page-header-section overlay-bg "
+        className="page-header-section overlay-bg"
         style={{
           background: "url(img/underground.jpg)",
           backgroundSize: "cover",
