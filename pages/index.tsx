@@ -48,11 +48,11 @@ export default function Home() {
           <div
             className="hero-slider "
             style={{
-              background: "url(/img/landing-page-1.jpg)",
+              background: "url(img/landing-page-1.jpg)",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
-              filter: "blur(3px)",
+              // filter: "blur(3px)",
             }}
           >
             <div className="hero-slide-item "></div>
