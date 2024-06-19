@@ -45,7 +45,7 @@ export default function Home() {
         </div>
         {/* <!-- hero slider area --> */}
         <div
-          className="hero-slider"
+          className="hero-slider "
           style={{
             background: "url(img/landing-page-1.jpg)",
             backgroundSize: "cover",
