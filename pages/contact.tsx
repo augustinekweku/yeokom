@@ -1,6 +1,5 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
-import { GoogleMap, useJsApiLoader } from "@react-google-maps/api";
 import React from "react";
 
 const Contact = () => {
@@ -9,11 +8,12 @@ const Contact = () => {
       <Navbar customHeaderWrapperClass="bg-white" />
       {/* <!-- Page header section start --> */}
       <section
-        className="page-header-section"
+        className="page-header-section overlay-bg "
         style={{
-          background: "url(img/banner-2.jpg)",
+          background: "url(img/underground.jpg)",
           backgroundSize: "cover",
           backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
         }}
       >
         <div className="container">
@@ -32,10 +32,10 @@ const Contact = () => {
           </div>
           <div className="row">
             <div className="col-lg-3 contact-info mb-5 mb-lg-0">
-              <p>Address: 1481 Creekside Lane Avila Beach, CA 93424 </p>
-              <p>Phone: +53 345 7953 32453</p>
-              <p>Email: yourmail@gmail.com</p>
-              <div className="cf-social">
+              <p>Address: 22 Elgin Dr, Swindon SN2 8DN, UK</p>
+              <p>Phone: +675 334 567 223</p>
+              <p>Email: info@yeokom.co.uk</p>
+              <div className="cf-social d-none">
                 <a href="#">
                   <i className="fa fa-google-plus"></i>
                 </a>
@@ -51,11 +51,28 @@ const Contact = () => {
               </div>
             </div>
             <div className="col-lg-9">
-              <form className="contact-form">
-                <input type="text" placeholder="Enter your name" />
-                <input type="text" placeholder="Enter your email address" />
-                <textarea placeholder="Message ..."></textarea>
-                <button className="site-btn sb-dark">Send</button>
+              <form
+                className="contact-form"
+                action="https://submit-form.com/3JI0BIxe3"
+              >
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Enter your name"
+                />
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your email address"
+                />
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Message ..."
+                ></textarea>
+                <button className="site-btn sb-dark pointer">Send</button>
               </form>
             </div>
           </div>

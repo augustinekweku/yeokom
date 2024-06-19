@@ -22,9 +22,9 @@ export default function Home() {
       {/* <!-- Hero section start --> */}
       <section className="hero-section">
         {/* <!-- left social link ber --> */}
-        <div className="left-bar">
+        <div className="left-bar ">
           <div className="left-bar-content">
-            <div className="social-links">
+            <div className="social-links d-none">
               <a href="#">
                 <i className="fa fa-pinterest"></i>
               </a>
@@ -47,12 +47,16 @@ export default function Home() {
         <div
           className="hero-slider"
           style={{
-            background: "url(img/banner-2.jpg)",
+            background: "url(img/landing-page-1.jpg)",
             backgroundSize: "cover",
             backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
           }}
         >
-          <div className="hero-slide-item set-bg" data-setbg="img/banner-2.jpg">
+          <div
+            className="hero-slide-item set-bg"
+            data-setbg="img/landing-page-1.jpg"
+          >
             <div className="slide-inner">
               <div className="slide-content">
                 <h2>
@@ -67,7 +71,7 @@ export default function Home() {
           </div>
         </div>
         <div className="slide-num-holder" id="snh-1"></div>
-        <div className="hero-right-text">architecture</div>
+        <div className="hero-right-text d-none">Civil Engineering</div>
       </section>
       {/* <!-- Hero section end --> */}
 
@@ -89,11 +93,11 @@ export default function Home() {
                 and we can help you with that.
               </p>
               <a href="#" className="site-btn sb-dark">
-                See Project
+                Reach out to us
               </a>
             </div>
             <div className="col-lg-5 pt-4">
-              <img src="img/intro.png" alt="" />
+              <img src="img/about-3.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -114,14 +118,15 @@ export default function Home() {
                     <img src="img/icon/dark/1.png" alt="" />
                   </div>
                 </div>
-                <h3>Drainage Strategy Design and Reports.</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer sed dui eget lorem tincidunt.
-                </p>
-                <a href="#" className="readmore">
-                  READ MORE
-                </a>
+                <h3>Civil and Drainage Design</h3>
+                <div>
+                  <ul>
+                    <li>Sustainable Urban Drainage Systems</li>
+                    <li>Storm Water Attenuation Design</li>
+                    <li>Detailed Private Drainage Design</li>
+                    <li>Detailed Topography Survey</li>
+                  </ul>
+                </div>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -131,14 +136,14 @@ export default function Home() {
                     <img src="img/icon/dark/2.png" alt="" />
                   </div>
                 </div>
-                <h3>Access Roads, Permeable Pavements, and Highways</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer sed dui eget lorem tincidunt.
-                </p>
-                <a href="#" className="readmore">
-                  READ MORE
-                </a>
+                <h3>Planning Support</h3>
+                <div>
+                  <ul>
+                    <li>Foul And Surface Water Drainage Strategies</li>
+                    <li>⁠Flood Risk Assessments</li>
+                    <li>Foul Drainage Assessments (FDA1)</li>
+                  </ul>
+                </div>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -148,48 +153,11 @@ export default function Home() {
                     <img src="img/icon/dark/3.png" alt="" />
                   </div>
                 </div>
-                <h3>Apartment Buildings</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer sed dui eget lorem tincidunt.
-                </p>
-                <a href="#" className="readmore">
-                  READ MORE
-                </a>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="service-box">
-                <div className="sb-icon">
-                  <div className="sb-img-icon">
-                    <img src="img/icon/dark/4.png" alt="" />
-                  </div>
-                </div>
-                <h3>Topography Surveying and building measurements</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer sed dui eget lorem tincidunt.
-                </p>
-                <a href="#" className="readmore">
-                  READ MORE
-                </a>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="service-box">
-                <div className="sb-icon">
-                  <div className="sb-img-icon">
-                    <img src="img/icon/dark/5.png" alt="" />
-                  </div>
-                </div>
-                <h3>Documentation</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer sed dui eget lorem tincidunt.
-                </p>
-                <a href="#" className="readmore">
-                  READ MORE
-                </a>
+                <h3>SAB Applications</h3>
+                <ul>
+                  <li>Hydraulic Calculations</li>
+                  <li>Soakaway Calculations</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -204,17 +172,19 @@ export default function Home() {
           <div className="row">
             <div className="col-lg-7 pl-lg-0 offset-lg-5 cta-content">
               <h2 className="sp-title">
-                Get it <span>Right</span>
+                Get it <span>Right</span> with Yeokom Engineering Ltd
               </h2>
               <p>
-                We treat every project with respect regardless of size. Our
-                Policy is to conduct a site visit, assess site conditions, open
-                inspections chamber lids and collect invert levels, and carry
-                out a soakaway test to determine infiltration rates without
-                overcharging. We don&apos;t just do a desk study design and
-                assumptions. Our responsibility is to start realistically on the
-                right path to enable your planning and budgeting for your
-                drainage and road projects.
+                At Yeokom Engineering Ltd, we specialize in designing
+                sustainable drainage systems (SUDS) tailored to meet your
+                project&apos;s unique requirements. With a commitment to staying
+                ahead of the latest trends in SUDS, we ensure that your drainage
+                strategy aligns perfectly with current standards and planning
+                conditions. <br />
+                Our expertise has helped numerous clients meet their planning
+                conditions, and we’re ready to help you too. Trust Yeokom
+                Engineering Ltd to get it right, ensuring a reliable and
+                sustainable solution for your drainage needs.
               </p>
               <div className="cta-icons">
                 <div className="cta-img-icon">
@@ -239,7 +209,7 @@ export default function Home() {
           <div className="row">
             <div className="col-lg-3 col-md-6">
               <div className="milestone">
-                <h2>14</h2>
+                <h2>10</h2>
                 <p>
                   Years <br />
                   of <br />
@@ -280,7 +250,7 @@ export default function Home() {
       {/* <!-- Milestones section end --> */}
 
       {/* <!-- Projects section start --> */}
-      <div className="projects-section pb50 pt-5" id="projects">
+      <div className="projects-section pb50 pt-5 d-none" id="projects">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-3">
