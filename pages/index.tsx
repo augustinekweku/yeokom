@@ -53,21 +53,8 @@ export default function Home() {
             backgroundRepeat: "no-repeat",
           }}
         >
-          <div
-            className="hero-slide-item set-bg"
-            data-setbg="img/landing-page-1.jpg"
-          >
-            <div className="slide-inner">
-              <div className="slide-content">
-                <h2>
-                  Minimalistic <br />
-                  Architecture <br /> and more
-                </h2>
-                <a href="#" className="site-btn sb-light">
-                  See Project
-                </a>
-              </div>
-            </div>
+          <div className="hero-slide-item ">
+            <div className="slide-inner"></div>
           </div>
         </div>
         <div className="slide-num-holder" id="snh-1"></div>
