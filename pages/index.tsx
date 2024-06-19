@@ -52,7 +52,7 @@ export default function Home() {
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
-              filter: "blur(3px)",
+              filter: "blur(2px)",
             }}
           >
             <div className="hero-slide-item "></div>
