@@ -1119,6 +1119,11 @@ ol {
 .page-header-section {
   height: 600px;
   padding-top: 200px;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 150px;
+    height: 300px;
+  }
 }
 
 .page-header-section .header-title {
