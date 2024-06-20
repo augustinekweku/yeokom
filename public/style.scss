@@ -1160,9 +1160,10 @@ ol {
   height: calc(100% + 120px);
   left: 0;
   top: -60px;
-  background-image: url("/img/landing-page-2.jpg");
+  background-image: url("/img/about-us.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 63% 0%;
 }
 
 .testimonials-section .container {
@@ -2309,4 +2310,13 @@ ol {
 .about-icon {
   font-size: 50px;
   color: $primary-color;
+}
+
+.what-we-do {
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
 }

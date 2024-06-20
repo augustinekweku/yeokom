@@ -48,9 +48,9 @@ export default function Home() {
           <div
             className="hero-slider "
             style={{
-              background: "url(img/hero.jpg)",
-              backgroundSize: "cover",
-              backgroundPosition: "top",
+              background: "url(img/banner-0.jpg)",
+              backgroundSize: "100%",
+              backgroundPosition: "center center",
               backgroundRepeat: "no-repeat",
             }}
           >
@@ -89,12 +89,16 @@ export default function Home() {
                 <span style={{ color: "white" }}>Design</span>
               </h2>
               <p>
-                At Yeokom Engineering Ltd, we aim to always design A sustainable
-                drainage system for your project&lsquo;s drainage scheme. We aim
-                to align ourselves with the latest trend in SUDS. If Your
-                planning condition requires a drainage strategy that meets SUDS.
-                We have helped many people have their planning conditions met
-                and we can help you with that.
+                At Yeokom Engineering Ltd, our objective is to design
+                sustainable drainage systems that meet the specific needs of
+                your project&apos;s drainage scheme. We are committed to staying
+                abreast of the latest developments in Sustainable Urban Drainage
+                Systems (SUDS). Should your planning conditions require a
+                drainage strategy that complies with SUDS, we possess the
+                expertise to ensure these requirements are met. We have a proven
+                track record of assisting clients in fulfilling their planning
+                conditions, and we are confident in our ability to support your
+                project as well.
               </p>
               <a href="#" className="site-btn sb-dark">
                 Reach out to us

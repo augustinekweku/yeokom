@@ -47,7 +47,7 @@ const About = () => {
               </p>
             </div>
             <div className="col-lg-5 pt-4">
-              <img src="img/about-3.jpg" alt="" />
+              <img src="img/about-us-2.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -57,7 +57,7 @@ const About = () => {
       <section className="intro-section spad">
         <div className="container">
           <div className="row mt-4">
-            <div className="col-lg-8 intro-text">
+            <div className="col-12 intro-text text-center">
               <h1>
                 Our &nbsp;
                 <span
@@ -86,11 +86,14 @@ const About = () => {
             </div>
           </div>
           <div className="row mt-4">
-            <div className="col-lg-12 intro-text">
-              <h1>What we do &nbsp;</h1>
+            <div className="col-lg-12 intro-text what-we-do">
+              <h1 className="text-center">What we do &nbsp;</h1>
               <div className="row">
                 <div className="col-12 col-lg-6">
-                  <h5 className="font-weight-bold">Civil Engineering:</h5>
+                  <div className="d-flex justify-content-center flex-column align-items-center mb-3">
+                    <img src="img/civil-engineering.jpg" alt="" />
+                    <h5 className="font-weight-bold pt-3">Civil Engineering</h5>
+                  </div>
                   <p>
                     From concept to completion, our civil engineering team
                     handles design, planning, and construction management for
@@ -101,7 +104,10 @@ const About = () => {
                   </p>
                 </div>
                 <div className="col-12 col-lg-6">
-                  <h5 className="font-weight-bold">Surveying:</h5>
+                  <div className="d-flex justify-content-center flex-column align-items-center mb-3">
+                    <img src="img/surveying.jpg" alt="" />
+                    <h5 className="font-weight-bold pt-3">Surveying</h5>
+                  </div>
                   <p>
                     Our skilled surveyors utilise state-of-the-art equipment and
                     techniques to provide accurate land, topographic, and
@@ -117,7 +123,7 @@ const About = () => {
           </div>
           <div className="row mt-4">
             <div className="col-lg-12 intro-text">
-              <h1>Our Values &nbsp;</h1>
+              <h1 className="text-center">Our Values &nbsp;</h1>
               <div className="row">
                 <div className="col-12 col-md-6 col-lg-4 mb-3">
                   <div className="border rounded p-3 m-2 h-100 pt-4">
