@@ -69,7 +69,7 @@ const About = () => {
                 </span>
               </h1>
               <div className="row">
-                <div className="col-">
+                <div className="col">
                   <p>
                     Our mission is to provide exceptional civil engineering and
                     surveying services that meet the evolving needs of our
