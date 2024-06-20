@@ -19,21 +19,21 @@ const Projects = () => {
     setIsViewerOpen(false);
   };
   return (
-    <div>
+    <div className="container">
       <div
         style={{
           zIndex: 99,
         }}
         className="row justify-content-center gap-3 project-images"
       >
-        <div className="col-12 col-lg-4">
+        <div className="col-12 col-lg-6">
           <div className="" onClick={() => openImageViewer(0)}>
             <img src="/img/projects/Broad Hinton Swindon.png" alt="" />
 
             <p className="font-weight-bold">Broad Hinton Swindon</p>
           </div>
         </div>
-        <div className="col-12 col-lg-4" onClick={() => openImageViewer(1)}>
+        <div className="col-12 col-lg-6" onClick={() => openImageViewer(1)}>
           <img src="/img/projects/Haydon Wick Swindon.png" alt="" />
           <div className="">
             <p className="font-weight-bold">Haydon Wick Swindon</p>
