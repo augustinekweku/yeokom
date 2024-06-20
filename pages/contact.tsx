@@ -10,9 +10,9 @@ const Contact = () => {
       <section
         className="page-header-section overlay-bg"
         style={{
-          background: "url(img/underground.jpg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
+          background: "url(img/banner-0.jpg)",
+          backgroundSize: "100%",
+          backgroundPosition: "center center",
           backgroundRepeat: "no-repeat",
         }}
       >

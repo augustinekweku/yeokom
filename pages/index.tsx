@@ -105,7 +105,16 @@ export default function Home() {
               </a>
             </div>
             <div className="col-lg-5 pt-4">
-              <img src="img/about-3.jpg" alt="" />
+              <img
+                src="img/sud.jpg"
+                alt=""
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  borderRadius: "10px",
+                  objectFit: "cover",
+                }}
+              />
             </div>
           </div>
         </div>
