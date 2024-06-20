@@ -795,7 +795,7 @@ ol {
   width: 50%;
   height: 100%;
   left: 0;
-  background-image: url("./img//landing-page-2.jpg");
+  background-image: url("./img/about-us.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1117,7 +1117,7 @@ ol {
 /*  Other pages CSS
 /*----------------------------------------*/
 .page-header-section {
-  height: 445px;
+  height: 600px;
   padding-top: 200px;
 }
 
@@ -2244,7 +2244,6 @@ ol {
   background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
   color: white;
   font-weight: bold;
-  border: 3px solid #f1f1f1;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -2318,5 +2317,28 @@ ol {
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
+  }
+}
+
+.image-gallery {
+  .img-container {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .img-container img {
+    height: 350px; /* Adjust height as needed */
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    width: 100%;
+  }
+
+  .img-container:hover img {
+    transform: scale(1.1);
+  }
+  button {
+    border: none;
+    background: none;
+    outline: none;
   }
 }

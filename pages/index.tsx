@@ -22,7 +22,7 @@ export default function Home() {
       {/* <!-- Hero section start --> */}
       <section className="hero-section">
         {/* <!-- left social link ber --> */}
-        <div className="left-bar ">
+        <div className="left-bar d-none">
           <div className="left-bar-content">
             <div className="social-links d-none">
               <a href="#">
@@ -57,7 +57,7 @@ export default function Home() {
             <div className="hero-slide-item "></div>
           </div>
           <div className="hero-bg-text typewriter ">
-            <h1 className="text-white mb-0">
+            <h1 className="text-white mb-0 pt-4">
               Need Help with your Planning Application?
             </h1>
             <p className="text-white">
