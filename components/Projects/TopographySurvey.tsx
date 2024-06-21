@@ -5,11 +5,11 @@ import { useReducer } from "react";
 const images = [
   {
     imgUrl: "/img/projects/topography/Langford Topography.png",
-    caption: "Langford Topography",
+    caption: "Langford, West Oxfordshire",
   },
   {
     imgUrl: "/img/projects/topography/Topography Swindon Wiltshire.png",
-    caption: "Topography Swindon Wiltshire",
+    caption: "Swindon, Wiltshire",
   },
 ];
 
