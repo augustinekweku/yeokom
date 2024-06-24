@@ -104,7 +104,7 @@ export default function Home() {
             </div>
             <div className="col-lg-5 pt-4">
               <img
-                src="img/sud.jpg"
+                src="img/water.jpg"
                 alt=""
                 style={{
                   width: "100%",
