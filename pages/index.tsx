@@ -60,9 +60,7 @@ export default function Home() {
             <h1 className="text-white mb-0 pt-4">
               Need Help with your Planning Application?
             </h1>
-            <p className="text-white">
-              Detailed Foul and Water Drainage System
-            </p>
+            <p className="text-white">Detailed Drainage Strategy</p>
 
             <a
               onClick={() => {
@@ -160,7 +158,7 @@ export default function Home() {
                     <li>⁠Flood Risk Assessments</li>
                     <li>Foul Drainage Assessments (FDA1)</li>
                     <li>SAB Applications</li>
-                    <li>Hydraulic Calculations</li>
+                    <li>Hydrological calculations and modelling</li>
                     <li>Soakaway Calculations</li>
                   </ul>
                 </div>
