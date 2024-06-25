@@ -76,7 +76,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="map-area" id="map-canvas">
+        <div className="map-area d-none" id="map-canvas">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2479.718229465893!2d-1.7682174223518763!3d51.57339880587841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487145cdd1785953%3A0xe9158dfcae5e2f85!2s22%20Elgin%20Dr%2C%20Swindon%20SN2%208DN%2C%20UK!5e0!3m2!1sen!2sgh!4v1715533231798!5m2!1sen!2sgh"
             style={{ border: "0", width: "100%", height: "100%" }}
